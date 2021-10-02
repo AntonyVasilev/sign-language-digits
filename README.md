@@ -1,3 +1,6 @@
+# Задача: детектирование изображений.
+
+Данные:
 ## Sign Language Digits Dataset
 ### Turkey Ankara Ayrancı Anadolu High School's Sign Language Digits Dataset
 https://www.kaggle.com/ardamavi/sign-language-digits-dataset
@@ -12,3 +15,7 @@ Sign languages (also known as signed languages) are languages that use manual co
 * Number of classes: 10 (Digits: 0-9)
 * Number of participant students: 218
 * Number of samples per student: 10
+
+**Стек**: python 3, numpy, matplotlib, keras, tensorflow
+
+**Решение**: Сверточная нейронная сеть, состоящая из 3 блоков слоев Conv2D+MaxPooling2D и 2 полносвязных слоев и ещё одного полносвязного слоя на выходе.
