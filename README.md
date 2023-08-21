@@ -1,6 +1,6 @@
-# Задача: детектирование изображений.
+# Images detection - sign language digits.
 
-Данные:
+**Data**:
 ## Sign Language Digits Dataset
 ### Turkey Ankara Ayrancı Anadolu High School's Sign Language Digits Dataset
 https://www.kaggle.com/ardamavi/sign-language-digits-dataset
@@ -16,6 +16,6 @@ Sign languages (also known as signed languages) are languages that use manual co
 * Number of participant students: 218
 * Number of samples per student: 10
 
-**Стек**: python 3, numpy, matplotlib, keras, tensorflow
+**Stack**: python 3, numpy, matplotlib, keras, tensorflow
 
-**Решение**: Сверточная нейронная сеть, состоящая из 3 блоков слоев Conv2D+MaxPooling2D и 2 полносвязных слоев и ещё одного полносвязного слоя на выходе.
+**Solution**: A convolutional neural network consisting of 3 blocks of Conv2D+MaxPooling2D layers and 2 fully connected layers and one more fully connected layer at the output.
